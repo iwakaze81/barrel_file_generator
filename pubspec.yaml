@@ -1,0 +1,18 @@
+name: barrel_file_generator
+description: This package provides a command-line tool to automatically generate barrel files for Dart and Flutter projects.
+repository: https://github.com/iwakaze81/barrel_file_generator
+issue_tracker: https://github.com/iwakaze81/barrel_file_generator/issues
+version: 0.0.1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies: 
+  args: ^2.6.0
+
+dev_dependencies:
+  test: ^1.25.14
+  flutter_lints: ^5.0.0
+
+executables: 
+  barrel_file_generator:
